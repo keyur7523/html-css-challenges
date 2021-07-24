@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<img src="images/logo.svg" class="logo-img">
+
+<div id="container">
+      <div id="left-cont">
+            <form id="Bill">
+               <div id="input-cost"> 
+                    ::before
+                    <p>Bill<p>
+                    <p class="notification notification-bill" style="opacity: zero">Can't be Zero!</p>
+                    <br>
+                    <input data-type="bill" id="cost" placeholder="0" autocomplete="off" maxlength="10" style="border: 2px solid rgb(255, 131, 3);">
+               </div> 
+                <p>Select Tip %</p>
+                <div class="tip">
+                      <div id="tip1">5%</div>
+                      <div id="tip2">10%</div>
+                      <div id="tip3">15%</div>
+                      <div id="tip4">25%</div>
+                      <div id="tip5">50%</div>
+                      <div id="tipc">Custom</div>
+                </div>
+                ::before
+                <label for ="people" id="people-label">Number of People</label><br>
+                <input type="Number" id="people" placeholder=""/>
+      </div>
+      <div id="right-cont">
+            <div id="display">
+                <div id="rgrid">
+                      <div id="col"><span id="fff">Tip Amount</span><br><span id="ffe">/ person</span></div>
+                      <div id="rate">$0.00</div>
+                      <div id="col"><span id="fff">Total</span><br><span id="ffe">/ person</span></div>
+                      <div id="rate">$0.00</div>
+                </div>
+              <button id="button">RESET</button>
+            </div>
+      </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Keyur Pawaskar</a>.
+  </div>
+</body>
+</html>

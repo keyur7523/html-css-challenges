@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+/*font-family: 'Big Shoulders Display', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*font-family: 'Lexend Deca', sans-serif;*/
+
+.container{
+    display: flex;
+    font-size: 15px;
+    margin: 150px 300px 0 300px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 200;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.review{
+    padding: 40px 60px 40px 40px;
+}
+
+.review1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.review2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.review3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    width:150px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.r1{
+    color:hsl(31, 77%, 52%);
+}
+
+.r1:hover{
+    border: solid 2px hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.r2{
+    color:hsl(184, 100%, 22%);
+}
+
+.r2:hover{
+    border: solid 2px hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.r3{
+    color: hsl(179, 100%, 13%);
+}
+
+.r3:hover{
+    border: solid 2px hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        display: block;
+        margin: 30px 15px 0 15px;
+    }
+
+    .review1{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .review3{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 10px 10px;
+    }
+
+    button{
+        margin-top: 25px;
+    }
+}
